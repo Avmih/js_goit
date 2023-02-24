@@ -165,26 +165,78 @@
 
 
 
-let message;
-let login = prompt('Write your login)');
+// let message;
+// let login = prompt('Write your login)');
 
 
-if (login === 'Worker') {
-    message = 'Work!'
-}
-else if (login === 'Direktor') {
-    message = 'Wellcome'
-}
-else if (login === "") {
-    message = 'Write something'
-}
-else {
-    message = 'Fuck off!'
-}
+// if (login === 'Worker') {
+//     message = 'Work!'
+// }
+// else if (login === 'Direktor') {
+//     message = 'Wellcome'
+// }
+// else if (login === "") {
+//     message = 'Write something'
+// }
+// else {
+//     message = 'Fuck off!'
+// }
 
-alert(message);
+// alert(message);
 
 
+
+
+
+
+
+
+// let result;
+// let message;
+// let login = prompt('Who`s there?');
+
+// if (login === 'Admin') {
+//     result = prompt('Password?');
+//     if (result === 'The Master') {
+//         message = 'Welcome!';
+//     }
+//     else if (result === '' || result === null) {
+//         message = 'Canceled!';
+//     }
+//     else { message = ('Wrong Pasword') };
+// }
+// else if (login === '' || login === null) {
+//     message = ('Canceled');
+// }
+// else {
+//     message = 'I don´t know you!';
+// }
+
+// alert(message);
+
+
+
+
+
+// let userName = prompt('Хто там?', '');
+
+// if (userName === 'Admin') {
+
+//   let pass = prompt('Пароль?', '');
+
+//   if (pass === 'Господар') {
+//     alert( 'Ласкаво просимо!' );
+//   } else if (pass === '' || pass === null) {
+//     alert( 'Скасовано' );
+//   } else {
+//     alert( 'Неправильний пароль' );
+//   }
+
+// } else if (userName === '' || userName === null) {
+//   alert( 'Скасовано' );
+// } else {
+//   alert( 'Я вас не знаю' );
+// }
 
 
 
